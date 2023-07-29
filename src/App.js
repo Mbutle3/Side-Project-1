@@ -1,5 +1,6 @@
 import React from "react";
 import "../src/styles.css";
+
 import prod1_front from "../src/assets/images/product1-front.png";
 import prod1_back from "../src/assets/images/product1-back.png";
 
