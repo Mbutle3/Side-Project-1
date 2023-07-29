@@ -13,7 +13,6 @@ import prod4_front from "../src/assets/images/product4-front.png";
 import prod4_back from "../src/assets/images/product4-back.png";
 import ProductItem from "./components/product/ProductItem";
 
-ProductItem;
 export default function App() {
   const products = [
     {
@@ -56,11 +55,7 @@ export default function App() {
       {products.map((product) => (
         <ProductItem
           key={product.id}
-          name={product.name}
-          price={product.price}
-          product={products}
-          image_front={product.image_front}
-          image_back={product.image_back}
+          product={product}
           onItemClick={handleItemClick}
         />
       ))}
