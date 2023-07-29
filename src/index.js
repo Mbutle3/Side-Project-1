@@ -1,6 +1,7 @@
 import React from "react";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import "bootstrap/dist/css/bootstrap.min.css"; // Add this line to import the CSS
 
 import App from "../src/App";
 import Header from "../src/components/common/Header";
